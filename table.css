@@ -1,0 +1,111 @@
+.containerDiv {
+	  width: 100%; display:table
+	}    
+.rowDivHeader {
+      border: 1px solid #668db6;
+      background-color: #F36;
+      color: white;
+      font-weight: bold; display:table-row
+    }
+.rowDiv {
+      border: 1px solid #668db6;
+      background-color: #FCC;
+      display:table-row
+    }
+.cellDivHeader {
+	  border-right: 2px solid white;
+	  display: table-cell;
+	  width:10%;
+	  padding: 8px;
+	  text-align: center;
+	}
+.cellDiv {
+	  border-right: 2px solid white;
+	  border-top: 2px solid white;
+	  display: table-cell;
+	  width:10%;
+	  padding-right: 5px;
+	  text-align: center;
+	  border-bottom: none;
+	}
+.lastCell {
+  		border-right: none;
+	}
+body{
+		margin:0;
+		font-family:"Futura Md Bt";
+		font-size:15px;
+		background-color:;
+		background-size:100%;
+		border-style:none;
+	}
+#halaman{
+		background-image:url();
+		margin:0 auto;
+		width:1150px;
+		height:300px;
+		border-radius:0px;
+	}
+#halamanbawah{
+		height:150px;
+		margin-top:50px;
+	}
+.demo-container{
+		margin:10px;
+	}
+.margintable{
+		margin-left:105px;
+		margin-right:105px;
+	}
+.horizon-menu{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		padding: 10px;
+		border-radius: 5px;
+		box-shadow:	;
+		background-color: #FCC;
+	}
+.horizon-menu a{
+		text-decoration:none;
+		color:#111;
+		font-weight:bold
+	}
+.horizon-menu li{
+		display:inline;
+		margin:5px 0
+	}
+.horizon-menu li:before{
+		content:' | ';
+		color:rgba(0,0,0,.1)
+	}
+.horizon-menu li:first-child:before{
+		content:' '
+	}
+.horizon-menu li a{
+		margin-right:5px;
+		margin-left:5px;
+		padding:10px;
+		border-radius:5px;
+		-webkit-transition:background-color 500ms ease-in-out;
+		-moz-transition:background-color 500ms ease-in-out;
+	}
+.horizon-menu li a:hover{
+		background-color: #ffffff;
+	}
+.horizon-menubawah{
+		list-style-type: none;
+		margin: 0;
+		margin-top:50px;
+		padding: 80px;
+		box-shadow:	;
+		background-color: #FCC;
+	}
+#isi{
+		font-family: "Century Gothic";
+		border-radius: 0px;
+		border: transparant;
+		margin-top: 0px;
+		margin-right: 0px;
+		color: #000000;
+	}
